@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.all {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* padding: 5vw; */
+  width: 100%;
+  height: auto;
+}
+
+.main1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.txt {
+  width: 43vw;
+  font-size: 1.6vw;
+  font-weight: 330;
+  line-height: 150%;
+}
+
+.txt2 {
+  padding-bottom: 2vw;
+}
+
+h1 {
+  font-size: 3.8vw;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+  padding-bottom: 3vw;
+  /* padding-left: 121px; */
+  /* width: 365px; height: 93px; */
+}
+
+.main1 img {
+  width: 23vw;
+  padding-top: 10vw;
+}
+
+.bottom {
+  display: flex;
+  padding: 8vw;
+  /* justify-content: space-evenly; */
+}
+
+.bottom img {
+  width: 15vw;
+}
+
+.main2 {
+  display: flex;
+  align-items: center;
+  padding-left: 8vw;
+  gap: 4vw;
+}
+
+.main2 p {
+  width: 10vw;
+  font-size: 1.2vw;
+  font-weight: 410;
+}
+
+span {
+  display: inline-block;
+  font-size: 1.7vw;
+  font-weight: 700;
+  padding-bottom: 1vw;
+}
+
+/* Media hissəsi komp üçün */
+@media screen and (min-width:1024px) and (max-width:2100px) {
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ .all {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* padding: 5vw; */
+    width: 100%;
+    height: auto;
+  }
+
+  .main1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .txt {
+    width: 43vw;
+    font-size: 1.6vw;
+    font-weight: 330;
+    line-height: 150%;
+  }
+
+  .txt2 {
+    padding-bottom: 2vw;
+  }
+
+  h1 {
+    font-size: 3.8vw;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    padding-bottom: 3vw;
+    /* padding-left: 121px; */
+    /* width: 365px; height: 93px; */
+  }
+
+  .main1 img {
+    width: 23vw;
+    padding-top: 10vw;
+  }
+
+
+
+
+  .bottom {
+    display: flex;
+    padding: 8vw;
+    /* justify-content: space-evenly; */
+  }
+
+  .bottom img {
+    width: 15vw;
+  }
+
+  .main2 {
+    display: flex;
+    align-items: center;
+    padding-left: 8vw;
+    gap: 4vw;
+  }
+
+  .main2 p {
+    width: 10vw;
+    font-size: 1.2vw;
+    font-weight: 410;
+  }
+
+  span {
+    display: inline-block;
+    font-size: 1.7vw;
+    font-weight: 700;
+    padding-bottom: 1vw;
+  }
+
+
+
+
+}
+
+/* Media hissəsi planşet üçün */
+@media screen and (min-width:601px) and (max-width:1024px) {
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ .all {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* padding: 5vw; */
+    width: 100%;
+    height: auto;
+  }
+
+  .main1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .txt {
+    width: 43vw;
+    font-size: 1.6vw;
+    font-weight: 330;
+    line-height: 150%;
+  }
+
+  .txt2 {
+    padding-bottom: 2vw;
+  }
+
+  h1 {
+    font-size: 3.8vw;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    padding-bottom: 3vw;
+    /* padding-left: 121px; */
+    /* width: 365px; height: 93px; */
+  }
+
+  .main1 img {
+    width: 23vw;
+    padding-top: 10vw;
+  }
+
+
+
+
+  .bottom {
+    display: flex;
+    padding: 8vw;
+    /* justify-content: space-evenly; */
+  }
+
+  .bottom img {
+    width: 15vw;
+  }
+
+  .main2 {
+    display: flex;
+    align-items: center;
+    padding-left: 8vw;
+    gap: 4vw;
+  }
+
+  .main2 p {
+    width: 10vw;
+    font-size: 1.2vw;
+    font-weight: 410;
+  }
+
+  span {
+    display: inline-block;
+    font-size: 1.7vw;
+    font-weight: 700;
+    padding-bottom: 1vw;
+  }
+}
+
+/* Media hissəsi telefon üçün */
+@media screen and (min-width:300px) and (max-width:600px) {
+  .txt {
+    width: 74vw;
+    font-size: 3vw;
+    font-weight: 330;
+    line-height: 150%;
+
+  }
+
+  h1 {
+    font-size: 6vw;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    padding-bottom: 3vw;
+    /* padding-left: 121px; */
+  }
+
+
+  .main1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around;  */
+    /* flex-wrap: wrap; */
+  }
+
+  .main1 img {
+    width: 41vw;
+  }
+
+  .bottom img {
+    display: none;
+  }
+
+  .main2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* padding-left: 8vw; */
+    gap: 4vw;
+
+  }
+
+  .main2 div:nth-child(3) {
+    flex-basis: 100%;
+
+  }
+
+  .main2 p {
+    width: 18vw;
+    font-size: 2.2vw;
+    font-weight: 410;
+  }
+
+  span {
+    display: inline-block;
+    font-size: 2.9vw;
+    font-weight: 700;
+    padding-bottom: 1vw;
+  }
+
+}
